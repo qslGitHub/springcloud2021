@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="JavaVirtualMachines">
+    <CLASSES>
+      <root url="file:///Library/Java/JavaVirtualMachines" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines" recursive="false" />
+  </library>
+</component>
