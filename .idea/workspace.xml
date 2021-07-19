@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="752abe9a-f4d9-4960-8c43-16a12c3bb6d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_1_3_201810200350_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_5_1_3_201810200350_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/cloud-config-center-3344.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/qsl/springcloud/ConfigMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/qsl/springcloud/controller/ConfigClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="752abe9a-f4d9-4960-8c43-16a12c3bb6d3" name="Default Changelist" comment="提交配置中心实战代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +68,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config-client-3366/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.13351136" />
@@ -100,11 +82,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud-config-client-3366/src/main/java" />
+      <recent name="$PROJECT_DIR$/cloud-config-client-3366/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java" />
       <recent name="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java" />
-      <recent name="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources" />
-      <recent name="$PROJECT_DIR$/cloud-api-commons/src/main/java/com.qsl.springcloud.entities" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -122,32 +104,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientMain3355">
+  <component name="RunManager" selected="Spring Boot.ConfigClientMain3366">
     <configuration name="TestTimeZone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestTimeZone" />
       <module name="cloud-gateway-gateway9527" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTimeZone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cloud-gateway-gateway9527" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTimeZone" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,6 +121,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qsl.springcloud.ConfigClientMain3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client-3366" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qsl.springcloud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qsl.springcloud.controller.ConfigClientMain3366" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -284,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigClientMain3355" />
         <item itemvalue="Spring Boot.ConfigMain" />
+        <item itemvalue="Spring Boot.ConfigClientMain3366" />
+        <item itemvalue="Spring Boot.ConfigClientMain3355" />
         <item itemvalue="Spring Boot.GateWayMain9527" />
         <item itemvalue="Application.TestTimeZone" />
-        <item itemvalue="JUnit.TestTimeZone" />
       </list>
     </recent_temporary>
   </component>
@@ -337,8 +310,18 @@
       <workItem from="1626270056599" duration="6135000" />
       <workItem from="1626280608154" duration="3281000" />
       <workItem from="1626358941481" duration="4240000" />
-      <workItem from="1626441987279" duration="927000" />
+      <workItem from="1626441987279" duration="3313000" />
+      <workItem from="1626614918956" duration="2569000" />
+      <workItem from="1626701215126" duration="2934000" />
     </task>
+    <task id="LOCAL-00001" summary="提交配置中心实战代码">
+      <created>1626443660836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626443660837</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,6 +385,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交配置中心实战代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交配置中心实战代码" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
