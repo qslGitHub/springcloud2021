@@ -18,6 +18,8 @@
         <module name="cloud-consumerzk-order80" />
         <module name="cloud-consumerconsul-order80" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
+        <module name="cloud-stream-rabbitmq-consumer8802" />
+        <module name="cloud-stream-rabbitmq-consumer8803" />
         <module name="cloud-config-center-3344" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-provider-payment8006-consul" />
@@ -47,6 +49,8 @@
       <module name="cloud-provider-payment8002" target="8" />
       <module name="cloud-provider-payment8004" target="8" />
       <module name="cloud-provider-payment8006-consul" target="8" />
+      <module name="cloud-stream-rabbitmq-consumer8802" target="8" />
+      <module name="cloud-stream-rabbitmq-consumer8803" target="8" />
       <module name="cloud-stream-rabbitmq-provider8801" target="8" />
       <module name="provider8006" target="8" />
       <module name="springcloud2021" target="1.8" />
