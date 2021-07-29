@@ -21,7 +21,10 @@
         <module name="cloud-stream-rabbitmq-consumer8802" />
         <module name="cloud-stream-rabbitmq-consumer8803" />
         <module name="cloud-config-center-3344" />
+        <module name="cloudalibaba-provider-payment9002" />
+        <module name="cloudalibaba-provider-payment9001" />
         <module name="cloud-gateway-gateway9527" />
+        <module name="cloudalibaba-consumer-nacos-order83" />
         <module name="cloud-provider-payment8006-consul" />
         <module name="cloud-provider-hygtrix-payment8001" />
         <module name="cloud-consumer-order80" />
@@ -52,6 +55,9 @@
       <module name="cloud-stream-rabbitmq-consumer8802" target="8" />
       <module name="cloud-stream-rabbitmq-consumer8803" target="8" />
       <module name="cloud-stream-rabbitmq-provider8801" target="8" />
+      <module name="cloudalibaba-consumer-nacos-order83" target="8" />
+      <module name="cloudalibaba-provider-payment9001" target="8" />
+      <module name="cloudalibaba-provider-payment9002" target="8" />
       <module name="provider8006" target="8" />
       <module name="springcloud2021" target="1.8" />
     </bytecodeTargetLevel>

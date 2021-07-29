@@ -4,8 +4,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="752abe9a-f4d9-4960-8c43-16a12c3bb6d3" name="Default Changelist" comment="提交消息驱动，生产者服务代码">
+    <list default="true" id="752abe9a-f4d9-4960-8c43-16a12c3bb6d3" name="Default Changelist" comment="提交消息驱动，消息消费者服务代码">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_discovery_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_context_log4j2_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpasyncclient_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpclient_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_jms_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_clients_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_streams_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_messaging_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_rpc_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_servlet_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_rabbit_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_web_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_webmvc_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_metrics_micrometer_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_activemq_client_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/cloudalibaba-consumer-nacos-order83.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/qsl/springcloud/OrderNacosMain83.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/qsl/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/qsl/springcloud/controller/OrderNacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/qsl/springcloud/PaymentMain9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/qsl/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/qsl/springcloud/PaymentMain9002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/qsl/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_7_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_7_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/qsl/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/qsl/springcloud/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/qsl/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/qsl/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8006-consul/cloud-provider-payment8006-consul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8006-consul/cloud-provider-payment8006-consul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +142,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/resources" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.13351136" />
@@ -88,11 +156,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/resources" />
+      <recent name="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802" />
       <recent name="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/resources" />
-      <recent name="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java" />
-      <recent name="$PROJECT_DIR$/cloud-config-client-3366/src/main/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/resources" />
@@ -114,55 +182,28 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StreamMQMain8802">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.OrderNacosMain83">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-client-3355" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qsl.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qsl.springcloud.ConfigClientMain3355" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-client-3366" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qsl.springcloud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qsl.springcloud.controller.ConfigClientMain3366" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-config-center-3344" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qsl.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qsl.springcloud.ConfigMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,6 +264,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderNacosMain83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-consumer-nacos-order83" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qsl.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qsl.springcloud.OrderNacosMain83" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderZKMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumerzk-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qsl.springcloud.OrderZKMain80" />
@@ -265,6 +319,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-provider-payment9001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qsl.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qsl.springcloud.PaymentMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-provider-payment9002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qsl.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qsl.springcloud.PaymentMain9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-stream-rabbitmq-provider8801" />
       <extension name="coverage">
@@ -302,11 +382,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderNacosMain83" />
+        <item itemvalue="Spring Boot.PaymentMain9001" />
+        <item itemvalue="Spring Boot.PaymentMain9002" />
         <item itemvalue="Spring Boot.StreamMQMain8802" />
         <item itemvalue="Spring Boot.StreamMQMain8801" />
-        <item itemvalue="Spring Boot.ConfigMain" />
-        <item itemvalue="Spring Boot.ConfigClientMain3366" />
-        <item itemvalue="Spring Boot.ConfigClientMain3355" />
       </list>
     </recent_temporary>
   </component>
@@ -362,6 +442,10 @@
       <workItem from="1626789481062" duration="3603000" />
       <workItem from="1627046578542" duration="4643000" />
       <workItem from="1627135192808" duration="127000" />
+      <workItem from="1627135334140" duration="3431000" />
+      <workItem from="1627227385307" duration="426000" />
+      <workItem from="1627308578614" duration="574000" />
+      <workItem from="1627569396197" duration="3733000" />
     </task>
     <task id="LOCAL-00001" summary="提交配置中心实战代码">
       <created>1626443660836</created>
@@ -384,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626793031777</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="提交消息驱动，消息消费者服务代码">
+      <created>1627135404491</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627135404491</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +544,19 @@
     <MESSAGE value="提交配置中心实战代码" />
     <MESSAGE value="提交配置中心实战代码,提交动态刷新和定点通知代码" />
     <MESSAGE value="提交消息驱动，生产者服务代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交消息驱动，生产者服务代码" />
+    <MESSAGE value="提交消息驱动，消息消费者服务代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交消息驱动，消息消费者服务代码" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/qsl/springcloud/controller/OrderController.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
