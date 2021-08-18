@@ -1,6 +1,7 @@
 package com.qsl.springcloud.interfaceTest;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Consumer;
@@ -55,8 +56,10 @@ public class Tom implements Person {
         list=list.stream().map(item->item*5).collect(Collectors.toList());
         //sort 排序
         list.sort((num1,num2)->num1-num2);
+        //最优雅的排序
+        list.sort(Comparator.comparingInt(num -> (int) num).thenComparing(num -> (int) num).reversed());
         //distinct 去重
-        Stream<Integer> distinct = list.stream().distinct();
+        list = list.stream().distinct().collect(Collectors.toList());
         //deduce 归约
         Optional<Integer> reduce = list.stream().reduce((num1, num2) -> num1 + num2);
         list.stream().forEach(item-> System.out.println(item));
